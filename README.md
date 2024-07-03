@@ -56,7 +56,9 @@ In the src folder of your project, create a package named com.chattingapp.config
 Create a Java class named DatabaseConnection with the following content:
 java
 Copy code
--- use social_db;
+
+
+-- -- use social_db;
 --
 
 -- --------------------------------------------------------
