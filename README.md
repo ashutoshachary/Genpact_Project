@@ -46,7 +46,7 @@ Select Apache Tomcat v9.0 and click Next.
 Browse to the directory where you installed Tomcat and click Finish.
 3. Create MySQL Database
 Open MySQL Workbench.
-Create a new schema named chattingapp.
+Create a new schema named social_db.
 Execute the following SQL to create the necessary tables:
 sql
 Copy code
@@ -56,7 +56,7 @@ In the src folder of your project, create a package named com.chattingapp.config
 Create a Java class named DatabaseConnection with the following content:
 java
 Copy code
-use social_db;
+-- use social_db;
 --
 
 -- --------------------------------------------------------
