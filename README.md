@@ -130,4 +130,26 @@ ALTER TABLE message
 ALTER TABLE post
   ADD CONSTRAINT post_ibfk_1 FOREIGN KEY (user_id) REFERENCES user (user_id) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
+--
+Results
+--
+Login
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/18f81916-6a96-4e17-b8eb-0c0cf90b6447)
 
+SignUp
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/60b978ff-00b7-4384-85ae-386279d64d2e)
+
+HomePage
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/79bbb5b7-4485-443a-9f9d-3164476f6367)
+
+ProfilePage
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/967f46df-a34a-493a-a481-070c4fc252d0)
+
+UpdateProfile
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/9fbae3d9-c7ea-4ca3-bd2a-e2b2c401ff0b)
+
+UpdatePost
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/b62cf634-5a9c-4165-b938-56ba596e6917)
+
+MessageToFriend
+![image](https://github.com/ashutoshachary/Genpact_Project/assets/111655759/04c74ad8-d065-4767-8d1e-c96dbc2878a2)
