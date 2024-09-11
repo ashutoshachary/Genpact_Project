@@ -1,4 +1,4 @@
-# Genpact_Project
+# JSP_Chatting_Project
 
 #ChattingApp
 ChattingApp is a dynamic web application developed using Java Server Pages (JSP) and Java Servlets. This project enables chatting between users.
